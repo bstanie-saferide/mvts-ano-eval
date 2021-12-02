@@ -7,13 +7,12 @@ from .lstmvae import VAE_LSTM
 from .tcn_ed import TcnED
 from .mscred import MSCRED
 from .omni_ano_algo import OmniAnoAlgo
-from .oneclasssvm_gpu import SVM1c_gpu as Ocsvm_gpu
+# from .oneclasssvm_gpu import SVM1c_gpu as Ocsvm_gpu
 
 __all__ = [
     'AutoEncoder',
     'DAGMM',
     'LSTMED',
-    'TelemanomAlgo',
     'RawSignalBaseline',
     'PcaRecons',
     'TcnUnivar',
@@ -21,7 +20,6 @@ __all__ = [
     'VAE_LSTM',
     'TcnED',
     'MSCRED',
-    'OmniAnoAlgo',
-    'Ocsvm_gpu'
+    'OmniAnoAlgo'
 ]
 

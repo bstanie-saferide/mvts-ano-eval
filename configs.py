@@ -136,7 +136,7 @@ def get_best_config(algo_name, ds_name):
         "patience": patience
     }
 
-    best_configs["VAE-LSTM"] = {
+    best_configs["VAE_LSTM"] = {
         "num_epochs": num_epochs,
         "lr": 0.0095,
         "batch_size": batch_size,
